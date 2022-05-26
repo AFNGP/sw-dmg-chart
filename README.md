@@ -1,3 +1,13 @@
+# Link to webpage
+[Damage Chart](https://AFNGP.github.io/sw-dmg-chart/)
+
+Credit goes to:
+- [Mush-0](https://github.com/Mush-0) for most of the code. I am just doing minor corrections.
+- Eden~♡#2724 for providing a translation of the boss defense values
+- The person in KR who provided the defense values
+
+# Original Info from Mush-0
+
 # SoulWorker Damage chart
 
 To answer the eternal question, Should i increase my AB or BD ?

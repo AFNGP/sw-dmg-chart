@@ -7,7 +7,7 @@
     <!-- Favicon for the site -->
     <link
       rel="icon"
-      href="https://cdn.discordapp.com/emojis/835942031485304873.png"
+      href="https://cdn.discordapp.com/emojis/616680482691743772.png?quality=lossless"
       type="image/x-icon"
     />
 
@@ -132,6 +132,11 @@
               <option value="VS_P2">Flemma P2</option>
               <option selected value="VS_P3">Flemma P3</option>
             </optgroup>
+            <optgroup label="Broken Savior">
+              <option value="Tenebris_P1">Tenebris P1</option>
+              <option value="Tenebris_P2">Tenebris P2</option>
+              <option value="Tenebris_Hard">Tenebris (Hard)</option>
+            </optgroup>
             <optgroup label="Lunar Fall HERO">
               <option value="heroLF_queen">Hero Junk Queen</option>
               <option value="heroLF_sword">Hero Queen Sword</option>
@@ -165,7 +170,7 @@
       <hr />
       <h3 class="under-line">How to use the tool?</h3>
       <h5>
-        The initial data i provided to draw the chart is from a real character
+        The initial data I provided to draw the chart is from a real character
         and it appears inside the fields so you can have some idea about values.
       </h5>
       <h5>
@@ -219,25 +224,19 @@
       <h3 class="text-left under-line">How the calculations are made?</h3>
 
       <p>
-        I've used the damage formulas from
-        <a
-          href="https://docs.google.com/spreadsheets/d/1_8-byaVGBU6MyauYCY73xVc6s1ov_H8aEV_jdE7aGuM/edit#gid=924213868"
-          target="_blank"
-          >Global SoulArchive
-        </a>
-        and the boss defense values at end of this section from
-        "EXA|Stinction#9845" on discord (THANKS A LOT)
+        The damage formula shown below has been self tested by me. The defense formula has been fetched from in-game files and it matches with in-game data (if you apply the defense formula then highlight Defense on your profile, you'll find the same value).
+        The boss defense values at end of this section are from Eden~♡#2724 on Discord (translator) and the original owner of the table from KR (for providing the values)
       </p>
 
       <p class="under-line">Here are my calculation steps:</p>
       <p>
-        While calculating AB damage dealt values i use "BD start" as a fixed
+        While calculating AB damage dealt values I use "BD start" as a fixed
         value and change AB starting from "AB start" with increments of "AB step
-        value" until i reach total of values provided in "number of steps".
+        value" until I reach total of values provided in "number of steps".
         <br />
-        Then when calculating BD damage dealt i use "AB start" as a fixed value
+        Then when calculating BD damage dealt I use "AB start" as a fixed value
         and change BD starting from "BD start" with increments of "BD step
-        value" until i reach total of values provided in "number of steps".
+        value" until I reach total of values provided in "number of steps".
       </p>
       <ul>
         <li>
@@ -269,27 +268,15 @@
         alt="Boss defence list"
       />
     </div>
-    <div class="other-tools container-fluid">
-      <hr />
-      <h3 class="under-line">Other Tools</h3>
-      I made another tool to calculate how many materials you need to craft
-      violent sun raid items, you can check it from
-      <a target="_blank" href="https://mush-0.github.io/VS-Calc/"
-        >VS Material Calculator.</a
-      >
-    </div>
     <div class="my-info container-fluid">
       <hr />
-      <h3 class="under-line">Contact me</h3>
-      Want to leave me a comment or a helpful note ? Have u found any bugs or
-      problems ? find me on discord user:
-      <a target="_blank" href="https://discord.com/users/287203639486054412"
-        >Musho- (•̀ᴗ•́)ง#7885</a
-      >
-      or
-      <a target="_blank" href="https://github.com/Mush-0/sw-dmg-chart/issues"
-        >github.</a
-      >
+      <h3 class="under-line">Suggestions or Problems</h3>
+      Open an issue on <a target="_blank" href="https://github.com/AFNGP/sw-dmg-chart/issues">github</a>.
+    </div>
+    <div class="TBD container-fluid">
+      <hr/>
+      <h3 class="under-line">TO-DO List</h3>
+      - Add a toggle for max attack buff
     </div>
   </body>
 </html>
