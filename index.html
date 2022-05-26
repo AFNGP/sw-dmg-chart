@@ -244,20 +244,22 @@
           Calculate the choosen boss defense rate for each AB value (Boss
           Defense Table values for AB=0%)
         </li>
-        <img
-          class="small"
-          src="./images/DefRate.png"
-          alt="Defense rate formula"
-        />
+        <div class="formDefd">
+          <img class="small" src="./images/DefRate.png" alt="Defense rate formula" />
+        </div>
+        <div class="formDefw hidden">
+          <img class="small" src="./images/DefRateW.png" alt="Defense rate formula" />
+        </div>
         <li>
           Then calculate damage dealt using the character stats and defense rate
           in this formula, the BD used is "BD start"
         </li>
-        <img
-          class="small"
-          src="./images/CriticalHit.png"
-          alt="Critical Hit formula"
-        />
+        <div class="formCritd">
+          <img class="small" src="./images/CriticalHit.png" alt="Critical Hit formula" />
+        </div>
+        <div class="formCritw hidden">
+          <img class="small" src="./images/CriticalHitW.png" alt="Critical Hit formula" />
+        </div>
         <li>
           Finally recalculate the damage dealt again while changing BD value and
           using the EnemyDefRate value that corresponds with "AB Start" value.

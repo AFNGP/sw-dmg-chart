@@ -7,6 +7,10 @@ function darkMode(e) {
   document.body.classList.toggle("dark-mode");
   document.querySelector(".white").classList.toggle("hidden");
   document.querySelector(".black").classList.toggle("hidden");
+  document.querySelector(".formDefd").classList.toggle("hidden");
+  document.querySelector(".formDefw").classList.toggle("hidden");
+  document.querySelector(".formCritd").classList.toggle("hidden");
+  document.querySelector(".formCritw").classList.toggle("hidden");
   document.querySelector(".ball").classList.toggle("moved-ball");
   // Toggle chart dark mode with the page
   toggleChartMode();

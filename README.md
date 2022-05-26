@@ -3,7 +3,7 @@
 
 Credit goes to:
 - [Mush-0](https://github.com/Mush-0) for most of the code. I am just doing minor corrections.
-- Eden~♡#2724 for providing a translation of the boss defense values
+- [Eden](https://github.com/Eden333) for providing a translation of the boss defense values
 - The person in KR who provided the defense values
 
 # Original Info from Mush-0
