@@ -41,6 +41,10 @@ function darkMode(e) {
       document.querySelector(".white").classList.remove("hidden");
       document.querySelector(".black").classList.add("hidden");
       document.querySelector(".ball").classList.add("moved-ball");
+      document.querySelector(".formDefd").classList.add("hidden");
+      document.querySelector(".formDefw").classList.remove("hidden");
+      document.querySelector(".formCritd").classList.toggle("hidden");
+      document.querySelector(".formCritw").classList.remove("hidden");
       document.querySelector(".toggle-container h4").textContent = "Light Mode";
       // Toggle chart dark mode with the page for the 1st time
       toggleChartMode();
@@ -49,6 +53,10 @@ function darkMode(e) {
       document.querySelector(".white").classList.add("hidden");
       document.querySelector(".black").classList.remove("hidden");
       document.querySelector(".ball").classList.remove("moved-ball");
+      document.querySelector(".formDefd").classList.remove("hidden");
+      document.querySelector(".formDefw").classList.add("hidden");
+      document.querySelector(".formCritd").classList.remove("hidden");
+      document.querySelector(".formCritw").classList.add("hidden");
       document.querySelector(".toggle-container h4").textContent = "Dark Mode";
     }
     setTimeout(() => {
