@@ -1,3 +1,3 @@
-Critical\,Hit=(\frac{MinATK+MaxATK}{2} + CDMG) \cdot (1 - DefRate) \cdot (Skill\,Mod)\cdot(1+Other\,Mod) \cdot(1+BDMG)
+Critical\,Hit=(\frac{MinATK+MaxATK}{2} + CDMG) \cdot (1 - DefRate) \cdot (Skill\,Mod)\cdot(1+Other\,Mod) \cdot(1+BDMG) \cdot (1 - Enemy\,Dmg\,Red)
 
 DefRate=\frac{Def \cdot (1 - AB)}{Def \cdot (1 - AB) + EnemyLV\cdot50}
