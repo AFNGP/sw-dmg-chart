@@ -2,9 +2,10 @@
 [Damage Chart](https://AFNGP.github.io/sw-dmg-chart/)
 
 Credit goes to:
-- [Mush-0](https://github.com/Mush-0) for most of the code. I am just doing minor corrections.
+- [Mush-0](https://github.com/Mush-0) for most of the code. I am just doing minor corrections
 - [Eden](https://github.com/Eden333) for providing a translation of the boss defense values
-- The person in KR who provided the defense values
+- Kaitomin for providing a cool looking defense table
+- The various people who worked on getting accurate defense values from in-game (I forgot who lmao)
 
 # Original Info from Mush-0
 
